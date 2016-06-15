@@ -84,7 +84,7 @@
                         <a <?php Print 'href="read_more.php?id='. $id .'"'  ?>><?php echo $title ?></a>
                     </h2>
                     <p class="lead">
-                        by <a href="filtrar_autor.php"><?php echo $posted_by ?></a>
+                        by <a <?php  Print 'href="filtrar_autor.php?user=' . $posted_by .'"'?>><?php echo $posted_by ?></a>;
                     </p>
                     <p><span class="glyphicon glyphicon-time"></span> <?php echo "Posted on $time" ?></p>
                     <hr>
